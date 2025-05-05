@@ -1,0 +1,23 @@
+.course-report-container {
+    background-color: #e9fbe9;
+    padding: 20px;
+    border-radius: 10px;
+    color: #2d5f2e;
+    font-family: sans-serif;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .course-report-container input,
+  .course-report-container button {
+    margin: 10px 5px;
+    padding: 5px;
+  }
+  
+  .course-report-results {
+    margin-top: 20px;
+    background-color: #d3f2d3;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  

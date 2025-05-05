@@ -1,0 +1,39 @@
+.room-report-container {
+  background-color: #e6f0ff;
+  border: 1px solid #4d88ff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 255, 0.1);
+}
+
+.room-report-container h2 {
+  color: #0047ab;
+}
+
+.room-report-container select,
+.room-report-container button {
+  margin: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.room-report-container button {
+  background-color: #4d88ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.room-report-container button:hover {
+  background-color: #005ce6;
+}
+
+.room-report-results {
+  margin-top: 20px;
+  color: #003366;
+}

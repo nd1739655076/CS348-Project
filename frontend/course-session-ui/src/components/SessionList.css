@@ -1,0 +1,95 @@
+.session-list-container {
+  padding: 2rem;
+  background: #fff0f6;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  animation: fadeIn 0.6s ease-in;
+}
+
+.list-title {
+  font-family: 'Segoe UI', sans-serif;
+  color: #d63384;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.session-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.session-item {
+  background: #fff;
+  border: 2px solid #f8c1d1;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.session-item:hover {
+  transform: scale(1.01);
+  background: #fff7fa;
+}
+
+.session-summary {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #cc3366;
+}
+
+.session-details {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: #333;
+  animation: slideDown 0.3s ease;
+}
+
+.button-group {
+  margin-top: 1rem;
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-btn {
+  background-color: #f06292;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #ec407a;
+}
+
+.delete-btn {
+  background-color: #ff8a80;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #ff5252;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: scaleY(0); }
+  to { opacity: 1; transform: scaleY(1); }
+}
